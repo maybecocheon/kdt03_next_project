@@ -12,7 +12,7 @@ export default function RootLayout({ children, }: Readonly<{children: React.Reac
   return (
     <html lang="ko">
       <body className={myFont.className}>
-            {children} {/* 내가 app 폴더 내에 만든 컴포넌트가 children */}
+            {children}
       </body>
     </html>
   );
